@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon-bars {
+    width: 90px;
+    height: 100vh;
+    background-color: #555;
+}
+.icon-bars a {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    padding: 16px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.icon-bars a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #04AA6D;
+}
